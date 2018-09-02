@@ -12,16 +12,20 @@
 		0D0B6B3B2135C438007CA0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0B6B392135C438007CA0E8 /* Main.storyboard */; };
 		0D0B6B3D2135C438007CA0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D0B6B3C2135C438007CA0E8 /* Assets.xcassets */; };
 		0D0B6B402135C438007CA0E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0B6B3E2135C438007CA0E8 /* LaunchScreen.storyboard */; };
+		0D665852213AB7B300F4FCA9 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D665851213AB7B300F4FCA9 /* Concentration.swift */; };
+		0D665854213AB93600F4FCA9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D665853213AB93600F4FCA9 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D0B6B322135C438007CA0E8 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0B6B352135C438007CA0E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D0B6B372135C438007CA0E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D0B6B372135C438007CA0E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 		0D0B6B3A2135C438007CA0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D0B6B3C2135C438007CA0E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D0B6B3F2135C438007CA0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D0B6B412135C438007CA0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D665851213AB7B300F4FCA9 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		0D665853213AB93600F4FCA9 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				0D0B6B352135C438007CA0E8 /* AppDelegate.swift */,
 				0D0B6B372135C438007CA0E8 /* ViewController.swift */,
 				0D0B6B392135C438007CA0E8 /* Main.storyboard */,
+				0D665851213AB7B300F4FCA9 /* Concentration.swift */,
+				0D665853213AB93600F4FCA9 /* Card.swift */,
 				0D0B6B3C2135C438007CA0E8 /* Assets.xcassets */,
 				0D0B6B3E2135C438007CA0E8 /* LaunchScreen.storyboard */,
 				0D0B6B412135C438007CA0E8 /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				0D0B6B382135C438007CA0E8 /* ViewController.swift in Sources */,
 				0D0B6B362135C438007CA0E8 /* AppDelegate.swift in Sources */,
+				0D665852213AB7B300F4FCA9 /* Concentration.swift in Sources */,
+				0D665854213AB93600F4FCA9 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +286,7 @@
 				DEVELOPMENT_TEAM = R3977Y3Z94;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = learning.Concentration;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.abc.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +301,7 @@
 				DEVELOPMENT_TEAM = R3977Y3Z94;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = learning.Concentration;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.abc.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
