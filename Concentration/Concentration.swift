@@ -19,11 +19,13 @@ struct Concentration{
         get{
             var foundIndex: Int?
             for index in cards.indices {
+                if cards[index].isFaceUp {
                 if foundIndex == nil {
                     foundIndex = index
                 }
                 else {
                     return nil
+                }
                 }
             }
             return foundIndex
