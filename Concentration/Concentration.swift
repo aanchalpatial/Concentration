@@ -61,6 +61,14 @@ struct Concentration{
         }
     }
     
+    mutating func startAgain(){
+        indexOfAndOnlyFaceUpCard = nil
+        for index in cards.indices {
+            cards[index].isFaceUp = false
+            cards[index].isMatched  = false
+        }
+    }
+    
     init(numberOfPairsOfCards: Int) {
         assert(numberOfPairsOfCards > 0, "Concentration.init(\(numberOfPairsOfCards)): u must hv atleast one pair")
         for _ in 1...numberOfPairsOfCards {

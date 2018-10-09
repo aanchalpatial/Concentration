@@ -27,7 +27,12 @@ class ViewController: UIViewController {
     
     @IBOutlet private var cardButtons: [UIButton]!
     
-   
+    @IBAction func newGame(_ sender: UIButton) {
+        flipCount = 0
+        game.startAgain()
+        updateViewFromModel()
+    }
+    
     
     @IBAction private func touchCard(_ sender: UIButton) {
         flipCount+=1
