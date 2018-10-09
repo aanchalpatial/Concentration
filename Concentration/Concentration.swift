@@ -67,6 +67,11 @@ struct Concentration{
             cards[index].isFaceUp = false
             cards[index].isMatched  = false
         }
+        //randomizing when new game button is clicked
+        for _ in cards.indices {
+            let randomIndex = cards.count.arc4random
+            cards.swapAt(0,randomIndex)
+        }
     }
     
     init(numberOfPairsOfCards: Int) {
@@ -74,6 +79,11 @@ struct Concentration{
         for _ in 1...numberOfPairsOfCards {
             let card = Card()
             cards += [card,card]
+            //randomizing for the very first time when app runs
+            let randomIndex = cards.count.arc4random                    //Int(arc4random_uniform(UInt32(cards.count)))
+            cards.swapAt(0,randomIndex)
         }
     }
 }
+
+
